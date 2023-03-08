@@ -40,23 +40,23 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
 // named
 function getValueWithConditionOne(val1, val2) {
   if (val1 === 40 && val2 === 40) {
-    return val1 + val2
+    return val1 + val2;
   }
-  return (val1 + val2) * 2
+  return ((val1 + val2) * 2);
 }
 //arrow
 const getValueWithConditionTwo = (val1, val2) => {
   if (val1 === 40 && val2 === 40) {
-    return val1 + val2
+    return val1 + val2;
   }
-  return ((val1 + val2) * 2)
+  return ((val1 + val2) * 2);
 }
 //varible
 const getValueWithConditionThree = function (val1, val2) {
   if (val1 === 40 && val2 === 40) {
-    return val1 + val2
+    return val1 + val2;
   }
-  return (val1 + val2) * 2
+  return ((val1 + val2) * 2);
 }
 
 
