@@ -21,7 +21,9 @@ const room1 = rectArea(4, 6);
 const room2 = rectArea(13, 3);
 const room3 = rectArea(4, 8);
 
-
+console.log(room1);
+console.log(room2);
+console.log(room3);
 
 /**
  * =============================================================
